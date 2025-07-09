@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* clase principal que da estilos todos los elementos de la tabla */
+.Tabla{
+    width: 50vw;
+    margin: 20px auto;
+}
+
+
+/* Clase que da estilos a cada uno de los elementos dentro de la tabla  */
+.Tabla__celda{
+    width: 47%;
+    padding: 10px;
+    border: 1px solid;
+    display: inline-block;
+    margin-left: -6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

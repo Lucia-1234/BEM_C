@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Clase principal */
+.Galeria{
+    padding: 20px;
+    background-color: black;
+}
+
+/* Clase que define la pocision de las imagenes */
+.Galeria__img{
+    display: inline-block;
+    margin: 120px;
+}
+
+/* Clase que define los estilos de las imagenes  */
+.Galeria__imagenes{
+    width: 280px;
+    height: 180px;
+    margin: 0 auto;
+}

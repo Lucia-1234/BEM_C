@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* clase princial del componente, define el estilo basico de la tarjeta */
+.Tarjeta-card{
+    background-color:lavenderblush;
+    width: 40vw;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* lase que define estilos generales de la informacion del producto */
+.Tarjeta-card__informacion{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Clase que le da estilos esecificamente al titulo de la tarjeta */
+.Tarjeta-card__titulo{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Clase que le da estilos esecificamente al la descricion de la tarjeta */
+.Tarjeta-card__descrip{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Clase que define estilos al precio del producto */
+.Tarjeta-card__precio{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Define estilos del boton de compra */
+.Tarjeta-card__boton button{
+    background-color: chartreuse;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* clase principal, define estilos basicos y genrales de la lista */
+.Lista{
+    width: 30vw;
+    background-color: cornflowerblue;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+/* Define el estilo del titulo de la lista */
+.Lista__titulo{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 12px;
+}
+
+/* Clase define estilo de los items de la lista de tareas */
+.Lista__items{
+    padding: 20px;
+}
+
+/* Clase que define estilos de cada tarea individualmente  */
+.Lista__item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Clase principal, define los estilos basicos del pie de pagina */
+.Pie_pagina{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Clase que dedine el dontenedor del contenio del footer */
+.Pie_pagina__contenido{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+/* Clase que define el estilo del texto */
+.Pie_pagina__texto{
+    margin-bottom: 10px;
+}
+
+/* Clase que define el estilo de enlaes del footer */
+.Pie_pagina__enlaces{
+    list-style: none;
+}
+
+/* define estilos de los enlaces dentro de esta clase  */
+.Pie_pagina__enlace{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Pie_pagina__enlace a{
+    text-decoration: none;
+    color: black;
+}

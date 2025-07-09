@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* clase principal del componente alerta, define los estilos basicos */
+.alerta{
+    width: 40vw;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* clase que define el estilo si su tipo es de exito */
+.alerta--suceso{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* clase que define el estilo si su tipo es de error */
+.alerta--error{
+    background-color: red;
+    color: antiquewhite;
+}
+
+/* clase que define el estilo si su tipo es de advertencia */
+.alerta--advertencia{
+    background-color: yellow;
+    color: azure;
+}
+
+/* clase que define el estilo del mensaje de notificacion */
+.alerta__notificacion{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+/* clase que define el estilo del boton de cerrar */
+.alerta__cerrar-button{
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}

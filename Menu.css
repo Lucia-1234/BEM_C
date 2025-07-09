@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Clase principal componentes del menu, define los estilos basicos generales */
+.nav{
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Clase que define estilos de los elementos de la lista */
+.nav__lista{
+    display: inline-block;
+    color: beige;
+}
+
+/* Clase que define estilos de cada elemento del menu */
+.nav__item{
+    margin-right: 20px;
+}
+
+/* Clase que define estilos del enlace del menu */
+.nav__link{
+    color: beige;
+    text-decoration: none;
+}

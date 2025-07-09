@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Clase principal que define el estilo basico del formulario */
+.Formulario{
+    width: 200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: coral;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/* Clase que define el espacio de cada grupo de campos del formulario */
+.Formulario__group{
+    margin-bottom: 15px;
+}
+
+/* Clase que define estilos de etiqueta de los campos del formulario */
+.Formulario__label{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
+
+/* Defne los campos de texto del formulario */
+.Formulario__input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Define estilos al boton de enviar */
+.Formulario__button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
