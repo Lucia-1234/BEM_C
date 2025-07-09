@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* clase principal que define estilos basicos de los tabs */
+.tabs{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+/* Clase que le da estilos a la lista dentro de la pestaña */
+.tabs__lista {
+    text-align: center;
+    text-decoration: none;
+    background-color: #eee;
+    padding: 10px 0;
+}
+
+/* Clase que le da estilos a los elementos del label dentro de la pestaña */
+.tabs__label {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #ccc;
+    cursor: pointer;
+    text-align: center;
+}
+
