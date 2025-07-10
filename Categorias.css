@@ -2,3 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
+/* Clase que da estilos basicos a todos los elementos de la categoria */
+.Categorias{
+    width: 100%;    
+}
+
+/* Clase que da estilos a la lista de categorias para poder seleccionar */
+.Categorias__lista{
+    list-style: none;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Clase que representa cada elemento de la lista como una categoria */
+.Categorias__item{
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+/* Clase que permite seleccionar una categoria */
+.Categorias__seleccione{
+    margin-right: 10px;
+}
+
+/* Etiqueta que describe la categoria  */
+.Categorias__label{
+    cursor: pointer;
+}

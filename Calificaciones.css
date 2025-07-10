@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Clase del contenedor principal del componente */
+.Calificaciones{
+    background-color:lightseagreen;
+    width: 40px;
+    margin: 10px auto;
+
+}
+
+/* Cada item en azul es una buena calificacion */
+.Calificaciones__rango{
+    font-size: 20px;
+    color: darkblue;
+    padding: 10px;
+}
+
+/* Clase para las malas calificaciones */
+.Calificaciones__rango--no{
+    color: brown;
+    font-size: 20px;
+    padding: 12px;
+}

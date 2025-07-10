@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Clase con el contenedor principal del componente */
+.Sidebar{
+    width: 200px;
+    background-color: darkorchid;
+    padding: 20px;
+    border: 1px solid;
+}
+
+/* clase de la lista de elelemtos de la barra lateral */
+.Sidebar__lista{
+    list-style: none;
+}
+
+/* Clase de los elementos individuales en la lista */
+.Sidebar__item{
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+/* Clase con referencia a todos los elemetos a */
+.Sidebar__item a{
+    text-decoration: none;
+    color: coral;
+}

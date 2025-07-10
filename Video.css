@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Clase princial que contiene el video */
+.Video{
+    margin: 40px;
+}
+
+/* Clase que le da estilos directamete al video */
+.Video__link{
+    width: 560px;
+    height: 315px;
+    cursor: pointer;
+}
